@@ -1,0 +1,48 @@
+h1,
+p,
+li {
+  font-family: "Nanum Gothic", Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-align: center;
+  color: #5a6276;
+}
+ul {
+  padding: 0;
+}
+h1 {
+  text-align: left;
+}
+li:hover {
+  color: #d1f0ee;
+}
+
+div {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.forecast {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+  max-width: 720px;
+  border: 2px solid #76d1cb;
+  border-radius: 4px;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+.btn .btn-primary {
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+}
+
+.background {
+  max-width: 720px;
+  background-color: #76d1cb;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
