@@ -1,48 +1,93 @@
-h1,
-p,
-li {
-  font-family: "Nanum Gothic", Arial, Helvetica, sans-serif;
-  list-style: none;
-  text-align: center;
-  color: #5a6276;
+body {
+  font-family: arial, sans-serif;
 }
+
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
 ul {
+  margin: 0;
   padding: 0;
 }
-h1 {
-  text-align: left;
-}
-li:hover {
-  color: #d1f0ee;
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
 }
 
-div {
-  display: block;
-  margin: 0 auto;
-  padding: 5px 10px;
-  border-radius: 10px;
+li:first-letter {
+  text-transform: capitalize;
 }
 
-.forecast {
-  display: block;
-  margin: 0 auto;
-  padding: 0 auto;
-  max-width: 720px;
-  border: 2px solid #76d1cb;
-  border-radius: 4px;
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-}
-.btn .btn-primary {
-  display: block;
-  margin: 0 auto;
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
 }
 
-input {
-  width: 100%;
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
 
-.background {
-  max-width: 720px;
-  background-color: #76d1cb;
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
